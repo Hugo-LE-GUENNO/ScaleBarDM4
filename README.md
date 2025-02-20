@@ -1,12 +1,15 @@
 **ScaleBarDM4**
 
-ScaleBarDM4 est une macro Fiji/ImageJ qui automatise le traitement des fichiers d'images DM4. Elle permet de :
-- Convertir les fichiers DM4 en format TIFF
-- Améliorer automatiquement le contraste
-- Mettre à l'échelle les images en fonction des métadonnées de taille de pixel
-- Ajouter automatiquement des barres d'échelle appropriées
+ScaleBarDM4 is a Fiji/ImageJ macro that automates the processing of DM4 image files. It enables the following features:
 
-| Taille de l'image | Barre d'échelle |
+- Conversion of DM4 files to TIFF format
+- Adjustment of contrast
+- Scaling of images based on pixel size metadata
+- Automatic addition of appropriate scale bars
+
+
+
+| Image Size | Scale Bar Length |
 |-------------------|-----------------|
 | < 800 nm          | 100 nm         |
 | 800 - 1600 nm     | 200 nm         |
@@ -19,8 +22,11 @@ ScaleBarDM4 est une macro Fiji/ImageJ qui automatise le traitement des fichiers 
 | 210 - 350 µm      | 50 µm          |
 | > 350 µm          | 100 µm         |
 
-## Utilisation
-1. Lancez Fiji/ImageJ
-2. Installez la macro
-3. Sélectionnez le dossier contenant vos fichiers DM4
-4. Les images converties seront sauvegardées dans un sous-dossier "output_Tiff_scaleBar"
+![ScaleBarDM4](ScaleBarDM4.svg)
+
+## Usage
+1. Launch Fiji/ImageJ
+2. Install the Macro
+3. Select the folder containing your DM4 files
+4. Processed images are saved in the "output_Tiff_scaleBar" subdirectory
+
